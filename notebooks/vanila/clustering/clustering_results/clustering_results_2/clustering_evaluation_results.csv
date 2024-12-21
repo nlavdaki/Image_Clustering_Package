@@ -1,0 +1,7 @@
+Model,Algorithm,Params,Silhouette,Davies-Bouldin,PCA Components
+ResNet50_imagenet_20241109-153348,KMeans,"{'algorithm': 'lloyd', 'copy_x': True, 'init': 'k-means++', 'max_iter': 300, 'n_clusters': 10, 'n_init': 'auto', 'random_state': 21, 'tol': 0.0001, 'verbose': 0}",0.38847446,0.7997198037360406,50.0
+ResNet50_None_20241109-153431,KMeans,"{'algorithm': 'lloyd', 'copy_x': True, 'init': 'k-means++', 'max_iter': 300, 'n_clusters': 10, 'n_init': 'auto', 'random_state': 21, 'tol': 0.0001, 'verbose': 0}",0.40638265,0.8449031782748518,50.0
+VGG16_imagenet_20241109-153510,KMeans,"{'algorithm': 'lloyd', 'copy_x': True, 'init': 'k-means++', 'max_iter': 300, 'n_clusters': 10, 'n_init': 'auto', 'random_state': 21, 'tol': 0.0001, 'verbose': 0}",0.34812093,0.8581746660105628,50.0
+VGG16_None_20241109-153549,KMeans,"{'algorithm': 'lloyd', 'copy_x': True, 'init': 'k-means++', 'max_iter': 300, 'n_clusters': 10, 'n_init': 'auto', 'random_state': 21, 'tol': 0.0001, 'verbose': 0}",0.4061703,0.7836515204749748,50.0
+InceptionV3_imagenet_20241109-153636,KMeans,"{'algorithm': 'lloyd', 'copy_x': True, 'init': 'k-means++', 'max_iter': 300, 'n_clusters': 10, 'n_init': 'auto', 'random_state': 21, 'tol': 0.0001, 'verbose': 0}",0.3749311,0.8587848225927569,50.0
+InceptionV3_None_20241109-153721,KMeans,"{'algorithm': 'lloyd', 'copy_x': True, 'init': 'k-means++', 'max_iter': 300, 'n_clusters': 10, 'n_init': 'auto', 'random_state': 21, 'tol': 0.0001, 'verbose': 0}",0.41604537,0.7824473220021295,50.0

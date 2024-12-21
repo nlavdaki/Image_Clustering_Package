@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fashion_image_clustering"
+version = "1.0.0"
+authors = [
+  { name = "Nikos Lavdakis", email = "lavdisn@gmail.com" },
+]
+
+description = 
+"""
+This Python package provides functionality to preprocess and cluster images in a fashion dataset, 
+as well as classify new images from URLs based on their similarity to existing clusters.
+"""
+
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "numpy",
+    "torch",  # For deep learning and feature extraction
+    "torchvision",  # For pre-trained models like ResNet
+    "opencv-python",  # For image processing
+    "scikit-learn",  # For clustering and StandardScaler
+    "requests",  # For downloading images from URLs
+    "pillow",  # For image handling with PIL
+]
+
+[tool.hatch.version]
+path = "fashion_image_clustering/__init__.py"
+
+[project.scripts]
+# Define a console script to run the main clustering function
+fashion_image_clustering = "fashion_image_clustering.main:main"

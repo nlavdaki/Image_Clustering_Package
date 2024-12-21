@@ -1,0 +1,1 @@
+{0: 'gown/sarong', 1: 'gown/sarong', 2: 'gown/trench coat', 3: 'trench coat/cloak', 4: 'gown/sarong', 5: 'sandal/buckle', 6: 'scarf/poncho', 7: 'face powder/perfume', 8: 'trench coat/miniskirt', 9: 'T-shirt/dust jacket', 10: 'scarf/cloak', 11: 'trench coat/suit', 12: 'kimono/trench coat', 13: 'sandal/slip-on shoe'}
