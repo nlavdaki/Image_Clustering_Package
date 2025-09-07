@@ -87,6 +87,7 @@ Cluster label: buckle/sandal
 The following structure organizes the package for development and usage:
 
 
+```bash
 fashion_image_clustering/
 ├── data/                            # Store dataset images and clustering models
 │   ├── fashion485/                  # Original image dataset directory
@@ -97,7 +98,7 @@ fashion_image_clustering/
 │           ├── clustering_model.txt # Descriptive labels for each cluster
 │           └── scaler.npz           # Scaler parameters for feature normalization
 ├── notebooks/                       # Jupyter notebooks for experimentation
-│   ├── DL_model/                    # Deep learning approaches the pytorch approach is the final one  
+│   ├── DL_model/                    # Deep learning approaches, the PyTorch approach is the final one  
 │   └── vanilla/                     # Clustering method experiments 
 ├── src/clustering_20241108/         # Source code for the clustering package
 │   ├── __init__.py                  # Package initialization
@@ -111,6 +112,7 @@ fashion_image_clustering/
 ├── LICENSE                          # License file
 ├── pyproject.toml                   # Project configuration for dependencies
 └── README.md                        # Project documentation
+```
 
 ## Module Guide
 
